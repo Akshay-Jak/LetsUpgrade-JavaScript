@@ -1,0 +1,25 @@
+<html>
+    <title>Assignment 1</title>
+    <head>
+        <h2>JS program to get the current date</h2>
+    </head>
+    <body>
+        <script>
+            Days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+            var d,h,s;
+            date=new Date();
+            d=date.getDate();
+            h=date.getHours();
+            s=date.getSeconds();
+            m=date.getMinutes();
+            if(h>12){
+                h=h-12+"PM"
+            }
+            else{
+                h=h-12+"AM"
+            }
+            document.write("Today is"+Days[d]+"<br>");
+            document.write("Current time is"+h+":"+m+":"+sec);
+        </script>
+    </body>
+</html>
