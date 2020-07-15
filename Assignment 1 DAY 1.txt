@@ -1,0 +1,39 @@
+console.log() 
+
+	This method is used to print Output to the console. 
+	The output can be of any type,but it has to be put insside the brackets.
+
+console.time() & console.timeEnd() :
+
+	It gives the time complexity of a block of function (or) It indicates the amount of time spend by 
+	a block of function to execute. They take a label which must be same ad the code can 
+	be anything i.e. function,object,simple console.
+
+console.error() :
+	
+	This method is used to indicate an error message to the console.
+	The error is highlighted in red color by default. It is useful in test a code.
+  
+console.warn() :
+
+	This method is used to indicate a warning message to the console. 
+	The warning message is highlighted in yellow color by default.
+
+
+console.table() :
+
+	This method is allows to create or generate a table inside the console .
+	The input could be of an arrayy or object.
+
+console.clear() :
+
+	This method is used to clear the console . 
+
+console.count() :
+
+	The method is used to count the number that the function is hit by this counting method.
+
+console.group() & console.groupEnd() :
+
+	This method of the console allows the  user to group the contents in the seperate blocks which will be 
+	indented. They accept label of some value.
