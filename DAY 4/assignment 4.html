@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+        <meta name="veiwpoint" content="width=device-width,initial-scale=1.0">
+        <title>Assignment 4</titile>
+    </head>
+    <body>
+        <h3>ASSIGNMENT 4</h3>
+        <script>
+		function add(a,b){
+			let c = +a + +b;
+			return c
+		}
+		function subtract(a,b){
+			let c = +a - +b;
+			return c
+		}
+		function multiply(a,b){
+			let c = +a * +b;
+			return c
+		}
+		function divide(a,b){
+			let c = +a / +b;
+			return c
+		}
+		function modulus(a,b){
+			let c = a%b;
+			return c
+		}
+		let str = prompt("Enetr the expression with a space between operators and operands:");
+		if(str.toLowerCase() == "sqr"){
+			num = prompt("Enter the number for which you want square root:");
+			console.log('The square root is $(Math.sqrt(num)}')
+		}
+		else{
+		let splitstr=str.split(" ");
+		if(splitstr[1] == "+"){
+			sol=add(splitstr[0],splitstr[2]);
+			console.log('The sum of ${splitstr[0]} and ${splitstr[2]} is ${res}');
+		}
+		else if(splitstr[1] == "-"){
+			sol=add(splitstr[0],splitstr[2]);
+			console.log('The difference of ${splitstr[0]} and ${splitstr[2]} is ${res}');
+		}
+		else if(splitstr[1] == "*"){
+			sol=add(splitstr[0],splitstr[2]);
+			console.log('The product of ${splitstr[0]} and ${splitstr[2]} is ${res}');
+		}
+		else if(splitstr[1] == "/"){
+			sol=add(splitstr[0],splitstr[2]);
+			console.log('The quotient of ${splitstr[0]} and ${splitstr[2]} is ${res}');
+		}
+		else if(splitstr[1] == "%"){
+			sol=add(splitstr[0],splitstr[2]);
+			console.log('The modulus of ${splitstr[0]} and ${splitstr[2]} is ${res}');
+		}
+		}
+	</script>
+    </body>
+</html>	

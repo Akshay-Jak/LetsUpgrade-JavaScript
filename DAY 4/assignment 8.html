@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+        <meta name="veiwpoint" content="width=device-width,initial-scale=1.0">
+        <title>Assignment 8</titile>
+    </head>
+    <body>
+        <h3>ASSIGNMENT 8</h3>
+        <script> 
+		function ask(question,yes,no){
+			if(confirm(question)) yes()
+			else no();
+		}
+		ask(
+		"Do you agree?",
+		()=> {alert("You agreed.");},
+		()=> {alert("You canceled the execution.");}
+		);
+	</script>
+    </body>
+</html>
